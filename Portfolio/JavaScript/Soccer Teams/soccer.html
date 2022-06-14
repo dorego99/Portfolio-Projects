@@ -1,0 +1,50 @@
+<!--
+Charles Valenca
+November 29th, 2020
+Week 5 Programming Lab: Soccer Lab
+-->
+
+<!DOCTYPE html>
+<html>
+
+<!-- This shows the title of the webage on the browser -->
+  <head>
+    <title>Soccer League</title>
+  </head>
+
+  <body>
+    <center>
+<!-- This shows the message "Soccer League" at the top of the HTML-->
+      <h1>Soccer League</h1>
+      <div>
+        <table>
+<!-- This string of code creates the area and ids for the javascript code-->
+          <p>
+            <th>Total Sign-ups:</th>
+            <td id="total">0</td>
+          </p>
+          <p>
+            <th>Junior League:</th>
+            <td id="junior">0</td>
+          </p>
+          <p>
+            <th>Intermediate League:</th>
+            <td id="intermediate">0</td>
+          </p>
+          <p>
+            <th>Senior League:</th>
+            <td id="senior">0</td>
+          </p>
+        </table>
+<!-- this creates the text box and button for the user to enter -->
+        <input placeholder="Enter age" id="age">
+        <button onclick="ageScale()">Add</button>
+      </div>
+    </center>
+<!-- This links the javascript and CSS code documents to this document-->
+    <script src="soccer2.js"></script>
+    <link rel="stylesheet" href="soccer3.css">
+
+  </body>
+
+</html>

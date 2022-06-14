@@ -1,0 +1,31 @@
+/* This adjusts the position and the font of the header "welcome" text*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 15%;
+  left: 45.5%;
+}
+
+/* This adds the background image as well as resizes the image to fit the webpage*/
+body {
+  background-image: url("swirl.jpg");
+  background-repeat: no-repeat;
+  background-size: 1920px 1000px;
+}
+
+/* This changes the position of the login and registration page*/
+.form {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+
+/* This hides either the login or registration page when on the other page so neither is showing at the same time*/
+.form .register-form {
+  display: none;
+}
+
+	
+	
+	
+	

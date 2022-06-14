@@ -1,0 +1,26 @@
+/* This changes the font color of "Soccer League" to Navy Blue in the h1 tag */
+h1 {
+	color: navy;
+}
+
+/* This creates the boxed boarders around the leagues and numbers */
+td, th {
+	border: 1px solid;
+	padding: 20px;
+	text-align: center;
+	color: navy;
+}
+
+/* This Changes the buttons appearence shifting the width, height, color, and text. It also changes the cursor to be a soccer ball when hovered*/
+button {
+    width: 70px;
+    height: 50px;
+    background: black;
+    position: relative;
+    background: black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: url(https://cur.cursors-4u.net/sports/spo-1/spo39.cur), auto !important;
+    transition: all 0.1s ease-in-out;
+	color: white;
+}
